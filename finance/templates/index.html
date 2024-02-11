@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+<div class="table-responsive">
+  <table class="table table-striped table-bordered">
+      <thead>
+    <tr>
+      <th>Simbol</th>
+      <th>Name</th>
+      <th>Shares</th>
+      <th>Price</th>
+      <th>Total</th>
+
+    </tr>
+      {% for transaction in transactions %}
+      <tr>
+          <td>{{ transaction.symbol }}</td>
+          <td>{{ transaction.symbol }}</td>
+          <td>{{ transaction.total_shares }}</td>
+          <td>{{ transaction.price |usd }}</td>
+          <td>{{ transaction.total_value|usd }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+ <tr>
+      <td>Cash</td>
+      <td>{{cash|usd}}</td>
+    </tr>
+    <br>
+    <tr>
+      <td>Total</td>
+      <td>{{total|usd}}</td>
+    </tr>
+  </div>
+
+  {% endblock %}

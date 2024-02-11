@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+<div class="table-responsive">
+    <table class="table table-striped table-bordered">
+        <thead>
+  <tr>
+      <th>Symbol</th>
+      <th>Shares</th>
+      <th>Price</th>
+      <th>Date</th>
+  </tr>
+  {% for transaction in transactions %}
+  <tr>
+      <td>{{ transaction.symbol }}</td>
+      <td>{{ transaction.shares }}</td>
+      <td>{{ transaction.price | usd }}</td>
+      <td>{{ transaction.timestamp }}</td>
+
+  </tr>
+  {% endfor %}
+</table>
+
+{% endblock %}

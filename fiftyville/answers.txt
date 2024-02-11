@@ -1,0 +1,76 @@
+The THIEF is: Bruce
+The city the thief ESCAPED TO: New York City
+The ACCOMPLICE is: Robin
+
+ license_plate |
++---------------+
++--------+---------+
+|   id   |  name   |
++--------+---------+
+| 221103 | Vanessa |
+| 686048 | Bruce   |
+| 243696 | Barry   |
+| 467400 | Luca    |
+| 398010 | Sofia   |
+| 396669 | Iman    |
+| 514354 | Diana   |
+| 560886 | Kelsey  |
++--------+---------+
+
+atm
+|   id   |  name   |
++--------+---------+
+| 686048 | Bruce   |
+| 948985 | Kaelyn  |
+| 514354 | Diana   |
+| 458378 | Brooke  |
+| 395717 | Kenny   |
+| 396669 | Iman    |
+| 467400 | Luca    |
+| 449774 | Taylor  |
+| 438727 | Benista |
+
+| caller  |  receiver  |
++---------+------------+
+| Sofia   | Jack       |
+| Kelsey  | Larry      |
+| Bruce   | Robin      |
+| Kelsey  | Melissa    |
+| Taylor  | James      |
+| Diana   | Philip     |
+| Carina  | Jacqueline |
+| Kenny   | Doris      |
+| Benista | Anna       |
+
+&&&
++--------+-------+
+|   id   | name  |
++--------+-------+
+| 514354 | Diana |
+| 686048 | Bruce |
++--------+-------+
+
++--------+
+|  name  |
++--------+
+| Doris  |
+| Sofia  |
+| Bruce  |
+| Edward |
+| Kelsey |
+| Taylor |
+| Kenny  |
+| Luca   |
++--------+
+
++----+---------------+
+| id |     city      |
++----+---------------+
+| 36 | New York City |
++----+---------------+
+
++--------+-------+
+|   id   | name  |
++--------+-------+
+| 686048 | Bruce |
++--------+-------+
